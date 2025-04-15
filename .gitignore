@@ -10,8 +10,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
-*.jar
+# Package Files
 *.war
 *.nar
 *.ear
@@ -25,6 +24,3 @@ replay_pid*
 
 # Mac
 .DS_Store
-
-# VS Code
-.vscode
