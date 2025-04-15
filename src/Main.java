@@ -61,7 +61,7 @@ public class Main {
                 throw new IllegalArgumentException("API falsch verwendet");
             }
 
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in, Main.CHARSET));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in, "UTF-8"));
             String base64Input = reader.lines().collect(Collectors.joining("\n")).trim();
             
             switch(args[0].toLowerCase()) {
